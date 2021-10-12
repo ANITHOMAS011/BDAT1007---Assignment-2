@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweet now!</title>
+    <style>
+        .content {
+  max-width:px;
+  margin: Center;
+  padding: 100px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translateX(50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+    </style>
+</head>
+<body  style="background-color:#FF2400  ;">
+<div class="content">
+<br>
+<form id = "form1" action="/twitterPost" method="post">
+    <img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Logo-2010-2012.png"
+         style="margin-left: 75px" class="img-responsive img-circle margin" style="display:Center" width="450" height="250">
+    <br>
+    <p>
+    <textarea name="status" placeholder = "What's happening?" rows="10" cols="50"  form="form1"
+    style="margin-left: 95px"></textarea>
+    </p>
+    <p>
+        <br>
+    <button type="submit" style="margin-left:230px; padding: 12px 28px; background-color:#00BFFF ">TWEET</button>
+    </p>
+</form>
+</div>
+</body>
+</html>
